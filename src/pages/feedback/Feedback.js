@@ -21,7 +21,7 @@ export const Feedback = () => {
       setUsers(snapshot.docs.map((doc) => ({ ...doc.data(), id: doc.id })))
     );
     return unsub;
-  }, []);
+  });
 
   return (
     <div className='list'>
