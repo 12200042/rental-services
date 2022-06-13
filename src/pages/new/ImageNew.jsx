@@ -57,10 +57,6 @@ const ImageNew = ({ inputs, title }) => {
   const handleAdd = async (e) => {
     e.preventDefault();
     try{
-    const res = await addDoc(collection(db, "VehicleImage"),{
-      ...data,
-      timeStamp: serverTimestamp(),
-    });
     navigate(-1)
   } catch(err){
     console.log(err)
