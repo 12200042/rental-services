@@ -1,6 +1,5 @@
 import "./contactUs.scss"
 import { useState } from "react";
-import ReactDOM from "react-dom";
 
 
 import Sidebar from "../../../components/sidebar/Sidebar";

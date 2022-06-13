@@ -3,7 +3,7 @@ import { useEffect, useState } from "react"
 import Navbar from "../../components/navbar/Navbar"
 import Sidebar from "../../components/sidebar/Sidebar"
 import "./newUser.scss"
-import { addDoc, collection, doc, serverTimestamp, setDoc, Timestamp } from "firebase/firestore"; 
+import { doc, serverTimestamp, setDoc } from "firebase/firestore"; 
 import { auth, db, storage } from "../../firebase"
 import {createUserWithEmailAndPassword } from "firebase/auth";
 import { ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";

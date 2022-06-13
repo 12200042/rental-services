@@ -3,9 +3,9 @@ import Sidebar from "../../components/sidebar/Sidebar";
 import Navbar from "../../components/navbar/Navbar";
 import DriveFolderUploadOutlinedIcon from "@mui/icons-material/DriveFolderUploadOutlined";
 import { useEffect, useState } from "react";
-import { collection, addDoc, doc, setDoc, Timestamp, serverTimestamp } from "firebase/firestore";
+import { collection, addDoc, serverTimestamp } from "firebase/firestore";
 
-import { auth, db, storage } from "../../firebase";
+import { db, storage } from "../../firebase";
 import { ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
 import { useNavigate}  from "react-router-dom";
 

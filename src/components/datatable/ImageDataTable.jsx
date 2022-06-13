@@ -4,7 +4,7 @@ import { userColumn } from "../../datasource/ImageDataSource";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { useEffect } from "react";
-import { collection, onSnapshot, doc, getDoc, addDoc, getDocs, updateDoc, deleteDoc } from "firebase/firestore";
+import { collection, onSnapshot, doc, deleteDoc } from "firebase/firestore";
 import { db } from "../../firebase";
 
 const ImageDataTable = () => {

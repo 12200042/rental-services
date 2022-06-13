@@ -1,9 +1,8 @@
 
 import { initializeApp} from "firebase/app";
-import { getAuth, signInWithEmailAndPassword, onAuthStateChanged, signOut } from "firebase/auth";
+import { getAuth, signOut } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
-import { useEffect, useState } from "react";
 
 const firebaseConfig = {
  apiKey: "AIzaSyCVcWf7VtM69-DoI38Igjg-Csle_1Hnc5Y",
