@@ -1,0 +1,24 @@
+.featured{
+    flex: 4;
+    justify-content: center;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+    padding: 10px;
+    // padding-left: 115px;
+    color: brown;
+    font-weight: bold;
+    font-size: 20px;
+
+    .item{
+        display: flex;
+        padding-bottom: 10px;
+
+        .avatar{
+            width: 800px;
+            height: 500px;
+            margin: 0px;
+            // border-radius: 50%;
+         }
+    }
+    
+}
