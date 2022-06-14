@@ -18,7 +18,7 @@ const Navbar = () => {
           <SearchIcon />
         </div> */}
         <div className="search">
-          <h2>Welcome to Bhutan Rental System</h2>
+          <h2>Welcome To VRS</h2>
         </div>
         <div className="items">
           <div className="item">
