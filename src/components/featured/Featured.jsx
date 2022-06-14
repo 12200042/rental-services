@@ -5,7 +5,7 @@ import car from '../../images/car6.jpg';
 
 const Featured = () => {
   return (
-    <div className='featured'>Light Vehicles Image in Bhutan
+    <div className='featured'>The light Vehicles Image in Bhutan
         <div className="item">
             <img
             src={Gold}

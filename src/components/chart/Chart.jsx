@@ -5,7 +5,7 @@ import car from '../../images/car5.jpg';
 
 const Chart = () => {
   return (
-    <div className="chart">Heavy Vehicles Image
+    <div className="chart">The Heavy Vehicles Image in Bhutan
       <div className="item">
         <img
           src={Gold}
