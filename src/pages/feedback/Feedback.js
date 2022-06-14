@@ -46,7 +46,7 @@ export const Feedback = () => {
                 <th className="pding" style={{textAlign: "center"}} >{user.title}</th>
                 <th className="pding" style={{textAlign: "center"}} >{user.description}</th>
                 <td className="pding-l">
-                <Button className="btn btn-danger cstm"
+                <Button className="button"
                     onClick={() => {
                       deleteUser(user.id);
                     }}

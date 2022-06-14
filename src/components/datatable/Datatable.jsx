@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { collection, doc, deleteDoc, onSnapshot  } from "firebase/firestore";
 import {db} from "../../firebase";
-import { userColumns } from './../../datatablesource';
+import { userColumns } from "../../datasource/datatablesource"
 
 const Datatable = () => {
   const [data, setData] = useState([]);

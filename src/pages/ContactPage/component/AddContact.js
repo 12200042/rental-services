@@ -116,7 +116,7 @@ const AddContact = ({ id, setContactId }) => {
           </Form.Group>
           <ButtonGroup aria-label="Basic example"  className="form">
             <Button
-              className="button"
+              className="buttons"
               disabled={flag}
               variant="success"
               onClick={(e) => {

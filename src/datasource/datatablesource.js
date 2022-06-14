@@ -12,14 +12,14 @@ export const userColumns = [
             );
         },
     },
+    // {
+    //     field:"username",
+    //     headerName:"Username",
+    //     width:400,
+    // },
     {
-        field:"username",
-        headerName:"Username",
-        width:400,
-    },
-    {
-        field: "displayName",
-        headerName:"DisplayName",
+        field: "Name",
+        headerName:"Name",
         width:300,
     },
     {
@@ -27,27 +27,27 @@ export const userColumns = [
         headerName:"Email",
         width:400,
     },
-    {
-        field: "phone",
-        headerName:"Phone",
+    // {
+    //     field: "phone",
+    //     headerName:"Phone",
         
-    },
-    {
-        field: "address",
-        headerName:"Address",
-    },
+    // },
+    // {
+    //     field: "address",
+    //     headerName:"Address",
+    // },
 
-    {
-        field:"status",
-        headerName:"Status",
-        width:200,
-        renderCell:(params)=>{
-            return (
-                <div className={`cellWithStatus ${params.row.status}`}>
-                    {params.row.status}</div>
-            );
-        },
-    },
+    // {
+    //     field:"status",
+    //     headerName:"Status",
+    //     width:200,
+    //     renderCell:(params)=>{
+    //         return (
+    //             <div className={`cellWithStatus ${params.row.status}`}>
+    //                 {params.row.status}</div>
+    //         );
+    //     },
+    // },
 
     
     

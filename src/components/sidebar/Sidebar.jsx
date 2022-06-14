@@ -1,14 +1,13 @@
 import './sidebar.scss'
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
-import ContactMailOutlinedIcon from '@mui/icons-material/ContactMailOutlined';
 import ImageOutlinedIcon from '@mui/icons-material/ImageOutlined';
 import LogoutIcon from '@mui/icons-material/Logout';
 import FeedbackOutlinedIcon from '@mui/icons-material/FeedbackOutlined';
-import BookOutlinedIcon from '@mui/icons-material/BookOutlined';
+import AddIcCallOutlinedIcon from '@mui/icons-material/AddIcCallOutlined';
+import BookmarksOutlinedIcon from '@mui/icons-material/BookmarksOutlined';
 import { Link } from "react-router-dom"
 import { useContext } from 'react';
 import { DarkModeContext } from '../context/darkModeContext';
-// import { async } from '@firebase/util';
 import { logout } from '../../firebase';
 import { useNavigate } from 'react-router-dom';
 
@@ -49,7 +48,7 @@ const Sidebar = () => {
                     </Link>
                     <Link to="/ContactUs" style={{ textDecoration: "none" }}>
                         <li>
-                            <ContactMailOutlinedIcon className="icon" />
+                            <AddIcCallOutlinedIcon className="icon" />
                             <span className="name">Contact_us</span>
                         </li>
                     </Link>
@@ -61,7 +60,7 @@ const Sidebar = () => {
                     </Link>
                     <Link to="/RentDetails" style={{ textDecoration: "none" }}>
                         <li>
-                            <BookOutlinedIcon className="icon" />
+                            <BookmarksOutlinedIcon className="icon" />
                             <span className="name">RentDetails</span>
                         </li>
                     </Link>
