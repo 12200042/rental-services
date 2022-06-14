@@ -62,7 +62,7 @@ export const RentDetails = () => {
                 <th className="pding" style={{textAlign: "center"}} >{user.return}</th>
                 <th className="pding" style={{textAlign: "center"}} >{user.startDate}</th>
                 <td className="pding-l">
-                <Button className="btn btn-danger cstm"
+                <Button className="button"
                     onClick={() => {
                       deleteUser(user.id);
                     }}
