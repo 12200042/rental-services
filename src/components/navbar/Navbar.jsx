@@ -18,7 +18,7 @@ const Navbar = () => {
           <SearchIcon />
         </div> */}
         <div className="search">
-          <h2>Welcome To VRS</h2>
+          <h2>WelcomeToVRS</h2>
         </div>
         <div className="items">
           <div className="item">
