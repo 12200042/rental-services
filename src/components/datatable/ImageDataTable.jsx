@@ -65,8 +65,8 @@ const ImageDataTable = () => {
         className="datagrid"
         rows={data}
         columns={userColumn.concat(actionColumn)}
-        pageSize={10}
-        rowsPerPageOptions={[10]}
+        // pageSize={10}
+        // rowsPerPageOptions={[10]}
         checkboxSelection
       />
     </div>

@@ -36,9 +36,9 @@ export const RentDetails = () => {
             <tr>
                 <th>#</th>
                 <th>Name of Vehicle</th>
+                <th>Category</th>
                 <th>Email_id</th>
                 <th>Phone Number</th>
-                <th>Category</th>
                 <th>Condition</th>
                 <th>Address</th>
                 <th>Price</th>
@@ -59,8 +59,9 @@ export const RentDetails = () => {
                 <th className="pding" style={{textAlign: "center"}} >{user.condition}</th>
                 <th className="pding" style={{textAlign: "center"}} >{user.address}</th>
                 <th className="pding" style={{textAlign: "center"}} >{user.price}</th>
-                <th className="pding" style={{textAlign: "center"}} >{user.return}</th>
+                <th className="pding" style={{textAlign: "center"}} >{user.returnDate}</th>
                 <th className="pding" style={{textAlign: "center"}} >{user.startDate}</th>
+                
                 <td className="pding-l">
                 <Button className="button"
                     onClick={() => {

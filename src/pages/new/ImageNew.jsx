@@ -3,6 +3,8 @@ import Sidebar from "../../components/sidebar/Sidebar";
 import Navbar from "../../components/navbar/Navbar";
 import DriveFolderUploadOutlinedIcon from "@mui/icons-material/DriveFolderUploadOutlined";
 import { useEffect, useState } from "react";
+import { addDoc, collection,serverTimestamp } from "firebase/firestore";
+import { db } from "../../firebase";
 
 import { storage } from "../../firebase";
 import { ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
@@ -56,6 +58,10 @@ const ImageNew = ({ inputs, title }) => {
   const handleAdd = async (e) => {
     e.preventDefault();
     try{
+      await addDoc(collection(db, "VehicleImage"),{
+      ...data,
+      timeStamp: serverTimestamp(),
+    });
     navigate(-1)
   } catch(err){
     console.log(err)
