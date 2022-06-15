@@ -13,7 +13,7 @@ export const userColumns = [
         );
     },
 },
-  { field: 'Name', headerName: 'Name', width: 100 },
+  { field: 'Name', headerName: 'Name', width: 300 },
   { field: 'email', headerName: 'Email', width: 300 },
   
 ];
